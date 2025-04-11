@@ -47,3 +47,7 @@ Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabe
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README
 
   ![W5 Soal 7](images/W5-soal7.gif)
+
+**Soal 8**
+- Jelaskan maksud perbedaan kode langkah 1 dan 4!  
+> Langkah 1 menggunakan `FutureGroup` untuk menambahkan future satu per satu dan harus ditutup manual dengan `.close()`, sedangkan langkah 4 lebih ringkas dengan `Future.wait` yang langsung mengeksekusi kumpulan future dalam satu langkah tanpa penambahan atau penutupan manual.
