@@ -67,3 +67,13 @@
 - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
 
   ![W5 Soal 11](images/W5-soal11.jpg)
+
+**Soal 12**
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+
+  ![W5 Soal 12-1](images/W5-soal12-1.jpg)
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+> Tidak, karena Flutter Web memiliki keterbatasan akses ke hardware GPS. Package `geolocator` hanya dapat mengakses lokasi menggunakan API browser yang akurasinya rendah dan bergantung pada izin pengguna; jika tidak diberikan, maka lokasi tidak bisa didapat.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README
+
+  ![W5 Soal 12-2](images/W5-soal12-2.gif)
