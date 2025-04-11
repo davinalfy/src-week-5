@@ -2,12 +2,12 @@
 
 ## Praktikum 1 - Mengunduh Data dari Web Service (API)
 **Soal 1**
-Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.  
+- Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.  
 
   ![W5 Soal 1](images/W5-soal1.jpg)
 
 **Soal 2**
-Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Kemudian cobalah akses di browser URI tersebut dengan lengkap. Lakukan capture milik Anda dan tulis di README pada laporan praktikum.  
+- Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Kemudian cobalah akses di browser URI tersebut dengan lengkap. Lakukan capture milik Anda dan tulis di README pada laporan praktikum.  
 
   ![W5 Soal 2](images/W5-soal2.jpg)
 
@@ -51,3 +51,9 @@ Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabe
 **Soal 8**
 - Jelaskan maksud perbedaan kode langkah 1 dan 4!  
 > Langkah 1 menggunakan `FutureGroup` untuk menambahkan future satu per satu dan harus ditutup manual dengan `.close()`, sedangkan langkah 4 lebih ringkas dengan `Future.wait` yang langsung mengeksekusi kumpulan future dalam satu langkah tanpa penambahan atau penutupan manual.
+
+## Praktikum 5: Menangani Respon Error pada Async Code
+**Soal 9**
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+  ![W5 Soal 9](images/W5-soal9.gif)
