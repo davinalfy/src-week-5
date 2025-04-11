@@ -61,3 +61,9 @@
 **Soal 10**
 - Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
 > Langkah 1 hanya berisi fungsi `returnError()` yang secara sengaja melemparkan exception setelah delay 2 detik tanpa penanganan, sehingga jika dipanggil langsung bisa menyebabkan error tidak tertangani. Sementara itu, langkah 4 membungkus pemanggilan `returnError()` dalam fungsi `handleError()` menggunakan `try-catch-finally` untuk menangkap error, menampilkan pesan kesalahan ke UI dengan `setState`, dan memastikan `print('Complete')` tetap dijalankan. Dengan begitu, langkah 4 memberikan cara yang lebih aman dan terkontrol dalam menangani error.
+
+## Praktikum 6: Menggunakan Future dengan StatefulWidget
+**Soal 11**
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+  ![W5 Soal 11](images/W5-soal11.jpg)
