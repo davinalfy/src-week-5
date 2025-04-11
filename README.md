@@ -40,3 +40,10 @@ Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabe
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 
   ![W5 Soal 6](images/W5-soal6.gif)
+
+
+## Praktikum 4: Memanggil Future secara paralel
+**Soal 7**
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README
+
+  ![W5 Soal 7](images/W5-soal7.gif)
