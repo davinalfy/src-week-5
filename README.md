@@ -33,3 +33,10 @@ Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabe
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 
   ![W5 Soal 5](images/W5-soal5.gif)
+
+**Soal 6**
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+> Pada langkah 5 dan 6, method `calculate()` dimodifikasi untuk menangani kemungkinan error dengan `try-catch`, di mana jika berhasil akan menyelesaikan `Future` dengan `completer.complete(42)` setelah delay 5 detik, dan jika terjadi error maka akan memicu `completer.completeError({})`. Kemudian di langkah 6, pemanggilan `getNumber()` pada tombol diganti agar menggunakan `.then()` untuk menangani hasil sukses dan `.catchError()` untuk menangani error. Jika berhasil, hasil ditampilkan di UI, dan jika gagal akan muncul pesan `'An error occurred'`  
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+  ![W5 Soal 6](images/W5-soal6.gif)
