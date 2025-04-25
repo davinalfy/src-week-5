@@ -77,3 +77,11 @@
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README
 
   ![W5 Soal 12-2](images/W5-soal12-2.gif)
+
+## Praktikum 7: Manajemen Future dengan FutureBuilder
+**Soal 13**
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+> Perbedaannya terletak pada cara pengelolaan data posisi: kode "before" menggunakan setState() untuk memperbarui UI setelah posisi diperoleh, sementara kode "after" menggunakan FutureBuilder untuk menangani status asinkron secara otomatis, membuat UI lebih dinamis tanpa perlu memanggil setState() secara eksplisit.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README
+
+  ![W5 Soal 13](images/W5-soal13.gif)
