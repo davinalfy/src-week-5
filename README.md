@@ -92,3 +92,10 @@
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README
 
   ![W5 Soal 14](images/W5-soal14.gif)
+
+## Praktikum 8: Navigation route dengan Future Function
+**Soal 15**
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+- Silakan ganti dengan warna tema favorit Anda.
+
+  ![W5 Soal 15](images/W5-soal15.jpg)
