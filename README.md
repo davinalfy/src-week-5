@@ -81,7 +81,14 @@
 ## Praktikum 7: Manajemen Future dengan FutureBuilder
 **Soal 13**
 - Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
-> Perbedaannya terletak pada cara pengelolaan data posisi: kode "before" menggunakan setState() untuk memperbarui UI setelah posisi diperoleh, sementara kode "after" menggunakan FutureBuilder untuk menangani status asinkron secara otomatis, membuat UI lebih dinamis tanpa perlu memanggil setState() secara eksplisit.
+> Kode sebelumnya menggunakan `setState()` untuk memperbarui UI secara manual setelah posisi atau lokasi diperoleh, sedangkan pada praktikum ini menggunakan `FutureBuilder` untuk menangani status asinkron secara otomatis, membuat UI lebih dinamis tanpa perlu memanggil `setState()` secara eksplisit. Secara umum, kode pada praktikum ini lebih terstruktur dan efisien dalam mengelola status data asinkron.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README
 
   ![W5 Soal 13](images/W5-soal13.gif)
+
+**Soal 14**
+- Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+> Pada langkah sebelumnya, UI hanya menampilkan hasil data posisi setelah `Future` selesai dengan `snapshot.data.toString()`, tanpa menangani kemungkinan error. Sementara, pada langkah ini, jika terjadi error saat mengambil posisi (misalnya, masalah jaringan atau izin lokasi), UI akan menampilkan pesan error "Something terrible happened!" untuk menggantikan hasil data posisi.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README
+
+  ![W5 Soal 14](images/W5-soal14.gif)
