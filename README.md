@@ -99,3 +99,13 @@
 - Silakan ganti dengan warna tema favorit Anda.
 
   ![W5 Soal 15](images/W5-soal15.jpg)
+
+**Soal 16**
+- Cobalah klik setiap button, apa yang terjadi? Mengapa demikian?
+> Saat tombol di halaman kedua ditekan, warna yang sesuai (merah, hijau, atau biru) dipilih dan dikembalikan ke halaman pertama menggunakan `Navigator.pop()`. Halaman pertama kemudian mengubah warna latar belakangnya sesuai dengan pilihan tersebut, dan `setState()` dipanggil untuk memperbarui tampilan dengan warna baru.  
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+  ![W5 Soal 16-2](images/W5-soal16-2.jpg)
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README
+
+  ![W5 Soal 16-3](images/W5-soal16-3.gif)
