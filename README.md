@@ -109,3 +109,14 @@
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README
 
   ![W5 Soal 16-3](images/W5-soal16-3.gif)
+
+## Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+**Soal 17**
+- Cobalah klik setiap button, apa yang terjadi? Mengapa demikian?
+> Tiap tombol akan mengubah warna, kemudian menutup dialog, lalu `setState()` memperbarui UI. Warna berubah karena nilai `color` langsung diubah sebelum dialog ditutup.
+- Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+  ![W5 Soal 17-2](images/W5-soal17-2.jpg)
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README
+
+  ![W5 Soal 17-3](images/W5-soal17-3.gif)
